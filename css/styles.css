@@ -13,7 +13,7 @@
 .game-board {
     width: 100%;
     height: 500px;
-    border-bottom: 45px solid rgb(27, 192, 27);
+    border-bottom: 15px solid rgb(27, 192, 27);
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -31,7 +31,7 @@
 .mario {
     width: 150px;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
 }
 
 .jump {
@@ -53,6 +53,7 @@
         right: 100%;
     }
 }
+
 
 @keyframes jump {
     
